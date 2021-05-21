@@ -1,33 +1,77 @@
-# Telegram chat clone
+# Telegram API
 
-Aplikasi chat realtime clone dari  telegram yang dibuat menggunakan React js , express js , sequelize dan socket io.
+<!--- These are examples. See https://shields.io for others or to customize this set of shields. You might want to include dependencies, project status and licence info here --->
+Ini adalah API untuk Tikitz dimana seseorang bisa melakukan pemesanan tiket secara online dan memilih sendiri bangku yang tersedia.
 
-## Available Scripts
+## Built with
 
-In the project directory, you can run:
+* [NodeJs](https://nodejs.org/en/)
+* [ExpressJs](https://expressjs.com/)
+* [Socket.io](https://socket.io/)
 
-### `npm start`
+## Requirment
+* [NodeJs](https://nodejs.org/en/)
+* [ExpressJs](https://expressjs.com/) for testing
+* [Socket.io](https://socket.io/)
+* [Postman](https://www.postman.com/)
+* Database
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Regi
+## Instalation
+1. Clone the repo
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-### You can found here
+```
+git clone https://github.com/prasetioad/Telegram-Clone-BackEnd.git
 
-### Register page
-![register](https://user-images.githubusercontent.com/66661143/117747508-825d5700-b238-11eb-876c-8c4547f5d5ed.jpg)
-### Login Page
-![login](https://user-images.githubusercontent.com/66661143/117747501-80939380-b238-11eb-9646-6cba5c93fcb7.png)
-### Home page
-* Notifiacation feature
-![notification](https://user-images.githubusercontent.com/66661143/117747505-81c4c080-b238-11eb-80f8-31cc413aa5c4.jpg)
-* Profil Page
-![Untitled-1-Recovered](https://user-images.githubusercontent.com/66661143/117747510-825d5700-b238-11eb-9b50-3b60944bc01f.jpg)
+```
+2. Install NPM Packages 
+```
+npm install
+```
+## Add .env file at root folder project, and add following
+```
+# -------------------------------
+#           CONFIG DB
+# -------------------------------
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=
+DB_NAME=telegram
+DB_DIALECT=mysql
 
-### Visit here
-* https://stupefied-brown-bd269c.netlify.app/
+# --------------------------------
+#           CONFIG GENERAL
+# --------------------------------
+PORT=8080
+HOST=http://localhost:8080
+SECRET_KEY=Telegram2021
+STATIC_FOLDER=/avatar
 
-### FrontEnd
+#----------------------------------
+#           CONFIG MAILER
+#----------------------------------
+
+HOSTING = http://localhost:3000/
+EMAIL = lekersedunia@gmail.com
+PASSWORD = Madang123@
+```
+## Run the app
+``` 
+npm run dev 
+```
+## Rest API
+you can open postman collection [here](https://documenter.getpostman.com/view/14778352/TzRa8QaK)
+or
+[Run in Postman](https://www.getpostman.com/collections/0cbf5994803f98d31851)
+
+### Front End
 * https://github.com/prasetioad/Telegram-Clone-FrontEnd
 
+### Back End
+* https://github.com/prasetioad/Telegram-Clone-BackEnd
+
+## Live Demo
+* https://stupefied-brown-bd269c.netlify.app/login
+
+## Author
+* [@prasetioad](https://github.com/prasetioad)
