@@ -67,9 +67,6 @@ or
 ### Front End
 * https://github.com/prasetioad/Telegram-Clone-FrontEnd
 
-### Back End
-* https://github.com/prasetioad/Telegram-Clone-BackEnd
-
 ## Live Demo
 * https://stupefied-brown-bd269c.netlify.app/
 
