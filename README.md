@@ -11,7 +11,8 @@
 # Telegram API
 
 <!--- These are examples. See https://shields.io for others or to customize this set of shields. You might want to include dependencies, project status and licence info here --->
-Ini adalah API untuk Tikitz dimana seseorang bisa melakukan pemesanan tiket secara online dan memilih sendiri bangku yang tersedia.
+
+This is the API of the Telegram application created using React Js, Express Js, Sequelize and a realtime database named Socket.io
 
 ## Built with
 
