@@ -12,7 +12,7 @@
 
 <!--- These are examples. See https://shields.io for others or to customize this set of shields. You might want to include dependencies, project status and licence info here --->
 
-This is the API of the Telegram application created using React Js, Express Js, Sequelize and a realtime database named Socket.io
+This is the API of the Telegram application created using React Js, Express Js, Sequelize and a realtime database named Socket.io. Here, you can chat with other person who use this aplication. This application also have notification features to notif you when message comes in.
 
 ## Built with
 
